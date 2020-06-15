@@ -13,7 +13,7 @@ Nakon što smo prošli osnove JavaScripta, vrijeme je da stečeno znanje iskoris
 * Napraviti html stranicu na kojoj se nalazi HTML i JavaScript kod koji rješavaju zadani problem.
 * Primjer od kojeg možete krenuti imate na stranici [igra.html](igra.html) unutar ovog repozitorija.
 
-## Pomoć
+## Koraci
 Konkretni koraci u zadatku bi bili otprilike slijedeći:
 * Generiraj slučajan broj
 * Postavi broj pokušaja. Na početku je 1
@@ -28,7 +28,7 @@ Konkretni koraci u zadatku bi bili otprilike slijedeći:
   * Ispiši poruku da je igra gotova, zaustavi igru, daj mogućnost nove igre
 * Kad se igra ponovo pokrene, postavi sve na početak i kreni od prvog koraka
 
-Pomoć u kodiranju:
+## Pomoć u kodiranju:
 * Koristite `document.querySelector()` za reference na HTML elemente. U modulu 1, poglavlju 2, te modulu 2, poglavlju 1, imali smo primjer korištenja ove metode.
 * Koristite `btnPogodi.addEventListener('click', provjeri);` kako biste provjerili da li je posjetitelj pogodio broj. `provjeri` je funkcija koju morate napisati. Npr:
 ```JavaScript
