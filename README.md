@@ -27,3 +27,15 @@ Konkretni koraci u zadatku bi bili otprilike slijedeći:
 * Ako broj nije točan i igrač više nema pokušaja:
   * Ispiši poruku da je igra gotova, zaustavi igru, daj mogućnost nove igre
 * Kad se igra ponovo pokrene, postavi sve na početak i kreni od prvog koraka
+
+Pomoć u kodiranju:
+* Koristite `document.querySelector()` za reference na HTML elemente. U modulu 1, poglavlju 2, te modulu 2, poglavlju 1, imali smo primjer korištenja ove metode.
+* Koristite `btnPogodi.addEventListener('click', provjeri);` kako biste provjerili da li je posjetitelj pogodio broj. `provjeri` je funkcija koju morate napisati. Npr:
+```JavaScript
+function provjeri() {
+    const broj = document.querySelector('#txtBroj');
+    alert('Upisali ste: ' + broj);
+}
+``` 
+* Koristite `Math.random` i `Math.floor` funkcije za generiranje slučajnog broja i  zaokruživanje brojeva. U modulu 2, poglavlju 8 smo koristi `random()` funkciju.
+* Koristite `let btnNovaIgra = document.createElement('button')` i `document.body.appendChild(btnNovaIgra)` da biste na kraju igre stvorili novi botun za započimanje nove igre. Ne zaboravite i `btnNovaIgra.addEventListener('click', postaviNovuIgru)` kako bi posjetitelj resetirao stranicu klikom na novi botun.
