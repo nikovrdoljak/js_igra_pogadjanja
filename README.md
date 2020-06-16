@@ -16,8 +16,8 @@ Nakon što smo prošli osnove JavaScripta, vrijeme je da stečeno znanje iskoris
 
 ![igra1.png](igra1.png)
 
-## Koraci
-Konkretni koraci u zadatku bi bili otprilike slijedeći:
+## Koraci u kodi
+Konkretni koraci u samom programu bi bili otprilike slijedeći:
 * Generiraj slučajan broj
 * Postavi broj pokušaja. Na početku je 1
 * Dati mogućnost igraču da upiše broj za pogađanje
@@ -31,7 +31,7 @@ Konkretni koraci u zadatku bi bili otprilike slijedeći:
   * Ispiši poruku da je igra gotova, zaustavi igru, daj mogućnost nove igre
 * Kad se igra ponovo pokrene, postavi sve na početak i kreni od prvog koraka
 
-## Pomoć u kodiranju:
+## Pomoć u kodiranju
 * Koristite `document.querySelector()` za reference na HTML elemente. U modulu 1, poglavlju 2, te modulu 2, poglavlju 1, imali smo primjer korištenja ove metode. `textContent` svojstvo ovako referenciranih objekata koristimo za promjenu njihovog teksta.
 * Koristite `btnPogodi.addEventListener('click', provjeri);` kako biste pozvali funkciju  koja provjerava da li je posjetitelj pogodio broj. `provjeri` je funkcija koju morate napisati. Npr:
 ```JavaScript
