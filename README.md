@@ -12,6 +12,7 @@ Nakon što smo prošli osnove JavaScripta, vrijeme je da stečeno znanje iskoris
 ## Vaš zadatak
 * Napraviti html stranicu na kojoj se nalazi HTML i JavaScript kod koji rješavaju zadani problem.
 * Primjer od kojeg možete krenuti imate na stranici [igra.html](igra.html) unutar ovog repozitorija.
+* Svoj kod objavite na GitHub-u. Poželjno je da to bude preko vašeg individualiziranog linka: [https://classroom.github.com/a/-aGHx3uU](https://classroom.github.com/a/-aGHx3uU). Otvorite ga i prihvatite zadatak, te zatim klonirajte projekt na svom računalu, a kad završite samo napravite *commit/push*.
 * Primjer kako može vaša igra izgledati:
 
 ![igra1.png](igra1.png)
