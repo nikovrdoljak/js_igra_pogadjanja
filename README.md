@@ -12,7 +12,8 @@ Nakon što smo prošli osnove JavaScripta, vrijeme je da stečeno znanje iskoris
 ## Vaš zadatak
 * Napraviti html stranicu na kojoj se nalazi HTML i JavaScript kod koji rješavaju zadani problem.
 * Primjer od kojeg možete krenuti imate na stranici [igra.html](igra.html) unutar ovog repozitorija.
-* Primjer kako može vaš igra izgledati:
+* Primjer kako može vaša igra izgledati:
+
 ![igra1.png](igra1.png)
 
 ## Koraci
