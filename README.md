@@ -12,6 +12,8 @@ Nakon što smo prošli osnove JavaScripta, vrijeme je da stečeno znanje iskoris
 ## Vaš zadatak
 * Napraviti html stranicu na kojoj se nalazi HTML i JavaScript kod koji rješavaju zadani problem.
 * Primjer od kojeg možete krenuti imate na stranici [igra.html](igra.html) unutar ovog repozitorija.
+* Primjer kako može vaš igra izgledati:
+![igra1.png](igra1.png)
 
 ## Koraci
 Konkretni koraci u zadatku bi bili otprilike slijedeći:
@@ -29,13 +31,14 @@ Konkretni koraci u zadatku bi bili otprilike slijedeći:
 * Kad se igra ponovo pokrene, postavi sve na početak i kreni od prvog koraka
 
 ## Pomoć u kodiranju:
-* Koristite `document.querySelector()` za reference na HTML elemente. U modulu 1, poglavlju 2, te modulu 2, poglavlju 1, imali smo primjer korištenja ove metode.
-* Koristite `btnPogodi.addEventListener('click', provjeri);` kako biste provjerili da li je posjetitelj pogodio broj. `provjeri` je funkcija koju morate napisati. Npr:
+* Koristite `document.querySelector()` za reference na HTML elemente. U modulu 1, poglavlju 2, te modulu 2, poglavlju 1, imali smo primjer korištenja ove metode. `textContent` svojstvo ovako referenciranih objekata koristimo za promjenu njihovog teksta.
+* Koristite `btnPogodi.addEventListener('click', provjeri);` kako biste pozvali funkciju  koja provjerava da li je posjetitelj pogodio broj. `provjeri` je funkcija koju morate napisati. Npr:
 ```JavaScript
 function provjeri() {
     const broj = document.querySelector('#txtBroj');
     alert('Upisali ste: ' + broj);
 }
 ``` 
-* Koristite `Math.random` i `Math.floor` funkcije za generiranje slučajnog broja i  zaokruživanje brojeva. U modulu 2, poglavlju 8 smo koristi `random()` funkciju.
+* Koristite `Math.random()` i `Math.floor()` funkcije za generiranje slučajnog broja i  zaokruživanje brojeva. U modulu 2, poglavlju 8 smo koristi `random()` funkciju.
 * Koristite `let btnNovaIgra = document.createElement('button')` i `document.body.appendChild(btnNovaIgra)` da biste na kraju igre stvorili novi botun za započimanje nove igre. Ne zaboravite i `btnNovaIgra.addEventListener('click', postaviNovuIgru)` kako bi posjetitelj resetirao stranicu klikom na novi botun.
+* Naravno, igru možete napisati i na neki drugačiji način. Budete kreativni.
