@@ -17,7 +17,7 @@ Nakon što smo prošli osnove JavaScripta, vrijeme je da stečeno znanje iskoris
 
 ![igra1.png](igra1.png)
 
-## Koraci u kodi
+## Koraci u kodu
 Konkretni koraci u samom programu bi bili otprilike slijedeći:
 * Generiraj slučajan broj
 * Postavi broj pokušaja. Na početku je 1
